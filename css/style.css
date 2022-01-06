@@ -1,0 +1,96 @@
+.header{
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 325px;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%); /* Very dark blue */
+    border-radius: 10px;
+}
+
+.content-p{
+    margin-bottom: 0;
+}
+
+.header-content-container{
+    overflow: hidden;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-img-container img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.overlay{
+    z-index: 1;
+    position: absolute;
+    opacity: 0;
+    width:285px;
+    height:285px;
+    border-radius: 10px;
+}
+
+.overlay:hover{
+    position: absolute;
+    background-color:hsl(178, 100%, 50%); /* Cyan */
+    opacity: 0.5;
+}
+
+.overlay img{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 115px;
+    left: 0;
+    right: 0;
+    opacity: 1!important;
+}
+
+.description-container{
+    display: flex;
+    align-items: center;
+}
+
+.description-container p{
+    margin-left: 10px;
+}
+
+.user-container{
+    display: flex;
+    align-items: center;
+}
+
+.user-container p{
+    margin-left: 10px;
+}
+
+.text-white{
+    color: hsl(0, 0%, 100%); /* White */
+}
+
+.text-cyan{
+    color: hsl(178, 100%, 50%); /* Cyan */
+}
+
+span:hover{
+    color: hsl(178, 100%, 50%); /* Cyan */
+    cursor: pointer;
+}
+
+h3:hover{
+    color: hsl(178, 100%, 50%); /* Cyan */
+    cursor: pointer;
+}
+
+.footer{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer a{
+    color: hsl(0, 0%, 100%); /* White */
+}

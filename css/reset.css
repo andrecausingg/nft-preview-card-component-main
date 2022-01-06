@@ -1,0 +1,30 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+  
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125rem; /* 18px */
+    background-color: hsl(217, 54%, 11%); /* Very dark blue */ 
+    color: hsl(0, 0%, 100%); /* White */
+    font-weight: 300;
+}
+
+p{
+    color: hsl(215, 51%, 70%);  /* Soft blue */
+}
+
+hr{
+    margin: 0;
+    background-color: hsl(215, 32%, 27%); /* Very dark blue */ 
+}
+
